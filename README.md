@@ -11,4 +11,4 @@ This project is based of minimal, hackable and readable example to load [LLaMA](
 
 **Principles of model :**
 
-![LLaMA-critic](LLaMA-critic.svg)
+![LLaMA-critic](LLaMA-critic.png)
