@@ -3,7 +3,7 @@ Exploring of an minimal LLaMA LLM model (7B) with Reinforcement Learning Critic 
 
 **Ideas :** 
   - Environment : Universal Assertion Generator
-  - Actor : LLaMA (last layer is cut) + Attention Extention
+  - Actor (True/False) : LLaMA (last layer is cut) + Attention Extention
   - Critic : RNN / Attention
 
 
