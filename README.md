@@ -19,4 +19,4 @@ The model consists of two parts:
 
 **Perspective :**
 
-This model opposes Yann LeCun's vision on the concept of "common sense" for achieving a general AI. Using this model, we can combine it with a large language model to predict only "plausible" sequences of words. This would involve replacing the last layer with one or multiple trainable layers to predict new words. Here, the "critic" model will act as the error function for this new word model. If this new model works, we will call it the ORACLE and and could solve some scientific problems.
+This model opposes Yann LeCun's vision on the concept of "common sense" for achieving a general AI. Using this model, we can combine it with a large language model to predict only "plausible" sequences of words (Bayesian probability). This would involve replacing the last layer with one or multiple trainable layers to predict new words. Here, the "critic" model will act as the error function for this new word model. If this new model works, we will call it the ORACLE.
