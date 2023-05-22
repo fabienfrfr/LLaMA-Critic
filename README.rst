@@ -1,6 +1,7 @@
 .. -*- mode: rst -*-
 
-.. image:: https://raw.githubusercontent.com/fabienfrfr/LLaMA-Critic/main/branding/logo.png :align: center
+.. image:: https://raw.githubusercontent.com/fabienfrfr/LLaMA-Critic/main/branding/logo.png 
+	:align: center
 
 **Attribution required : Fabien Furfaro (CC 4.0 BY NC ND SA)**
 
