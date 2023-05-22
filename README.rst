@@ -19,7 +19,8 @@ The model consists of two parts:
   - **Encoder**: The encoder takes the input context (a set of text). The last layer for predicting the next word is not considered, allowing us to pass the raw information from the model to the decoder. The Meta model has already been trained, and we will use it for transfer learning.
   - **Decoder**: This model will predict whether the sentence is true or false. It is also based on attention, but it is smaller than the previous model and corresponds to the one to be trained.
 
-![LLaMA-critic](LLaMA-critic.png)
+
+.. image:: https://raw.githubusercontent.com/fabienfrfr/LLaMA-Critic/main/LLaMA-critic.png
 
 **Perspective :**
 
