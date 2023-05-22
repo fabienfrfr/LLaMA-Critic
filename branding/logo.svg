@@ -16,8 +16,8 @@
    sodipodi:docname="logo.svg"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
    inkscape:export-filename="/home/fabienfrfr/Bureau/logo.png"
-   inkscape:export-xdpi="240"
-   inkscape:export-ydpi="240">
+   inkscape:export-xdpi="120"
+   inkscape:export-ydpi="120">
   <metadata
      id="metadata190">
     <rdf:RDF>
@@ -26,7 +26,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -50,8 +50,8 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:zoom="1.3111111"
-     inkscape:cx="-199.27391"
-     inkscape:cy="46.05769"
+     inkscape:cx="-68.85018"
+     inkscape:cy="73.515317"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
