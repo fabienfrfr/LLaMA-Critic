@@ -1,9 +1,11 @@
 .. -*- mode: rst -*-
 
-.. image:: https://raw.githubusercontent.com/fabienfrfr/LLaMA-Critic/main/branding/logo.png 
-	:align: center
-
 **Attribution required : Fabien Furfaro (CC 4.0 BY NC ND SA)**
+
+.. raw:: html
+   <h1 align="center">
+   <a><img src="https://raw.githubusercontent.com/fabienfrfr/LLaMA-Critic/main/branding/logo.png></a>
+   </h1>
 
 **LLaMA-Critic** is PyTorch model trained for fact checking of a minimal LLaMA LLM model (7B)
 
