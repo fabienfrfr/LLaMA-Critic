@@ -36,7 +36,7 @@ The environement generate sentence of mathematic's relation, and also QCM and un
 
 For an intransigent calculation, i.e. a single false sentence is enough for all the sentences to be false, the probability that a false sentence appears is defined by:
 
-:math: P = \frac{1}{2^{N}}
+.. math:: P = \frac{1}{2^{N}}
 
 With "N", the number of sentences possible in the training batch.
 
