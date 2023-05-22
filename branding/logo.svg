@@ -11,8 +11,8 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.1"
    id="Frame_0"
-   width="124.22919"
-   height="137.82118"
+   width="162.73648"
+   height="178.90216"
    sodipodi:docname="logo.svg"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
    inkscape:export-filename="/home/fabienfrfr/Bureau/logo.png"
@@ -26,7 +26,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -49,19 +49,24 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:zoom="1.3111111"
-     inkscape:cx="-68.85018"
-     inkscape:cy="73.515317"
+     inkscape:zoom="2.6222222"
+     inkscape:cx="58.914328"
+     inkscape:cy="112.8874"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="Frame_0" />
+  <path
+     style="opacity:1;vector-effect:none;fill:#333132;fill-opacity:1;stroke:#999999;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     d="M 89.49071,1.0000006 A 88.474579,88.474579 0 0 0 15.037585,41.66211 88.474579,88.474579 0 0 0 41.668444,163.91797 88.474579,88.474579 0 0 0 148.05907,155.66992 93.302139,93.302139 0 0 1 133.11376,105.04297 93.302139,93.302139 0 0 1 161.4243,38.101563 88.474579,88.474579 0 0 0 137.29344,15.031251 88.474579,88.474579 0 0 0 89.49071,1.0000006 Z"
+     id="path828"
+     inkscape:connector-curvature="0" />
   <g
      id="Layer_6"
-     transform="translate(-1073.6907,-223.94897)" />
+     transform="translate(-1051.1375,-185.53686)" />
   <g
      id="g1120"
-     transform="translate(-1073.6907,-223.94897)">
+     transform="rotate(32.71095,931.15675,-1608.6231)">
     <path
        inkscape:connector-curvature="0"
        id="path2"
