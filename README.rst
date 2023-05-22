@@ -10,7 +10,7 @@ This project explore a method to fine tune LLM model with Critic strategy.
   - Environment : Universal Assertion Generator (Bayesian) - Possibilities of Reinforcement 
   - Actor with Critics (% True/False) : LLaMA (last layer is cut) + Attention Extention
 
-*This project is based of minimal, hackable and readable example to load* `LLaMA <https://ai.facebook.com/blog/large-language-model-llama-meta-ai/>`__ (`arXiv <https://arxiv.org/abs/2302.13971v1>`__) `Meta <https://github.com/facebookresearch/llama>`__ *models and run inference. In order to download the checkpoints and tokenizer, fill this* `google form <https://forms.gle/jk851eBVbX1m5TAv5>`__*
+*This project is based of minimal, hackable and readable example to load* `LLaMA <https://ai.facebook.com/blog/large-language-model-llama-meta-ai/>`__ (`arXiv <https://arxiv.org/abs/2302.13971v1>`__) `Meta <https://github.com/facebookresearch/llama>`__ *models and run inference. In order to download the checkpoints and tokenizer, fill this* `google form <https://forms.gle/jk851eBVbX1m5TAv5>`__ 
 
 
 [arXiv]()
