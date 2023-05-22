@@ -1,8 +1,8 @@
 # LLaMA-critic
-Exploring of an minimal LLaMA LLM model (7B) with Reinforcement Learning Critic method for Fact Checking
+Exploring of an minimal LLaMA LLM model (7B) with Critic method for Fact Checking
 
 **Ideas :** 
-  - Environment : Universal Assertion Generator (Bayesian)
+  - Environment : Universal Assertion Generator (Bayesian) - Possibilities of Reinforcement 
   - Actor with Critics (% True/False) : LLaMA (last layer is cut) + Attention Extention
 
 
