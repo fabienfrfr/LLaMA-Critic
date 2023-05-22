@@ -20,7 +20,7 @@ The model consists of two parts:
   - **Decoder**: This model will predict whether the sentence is true or false. It is also based on attention, but it is smaller than the previous model and corresponds to the one to be trained.
 
 
-.. image:: https://raw.githubusercontent.com/fabienfrfr/LLaMA-Critic/main/LLaMA-critic.png
+.. image:: https://raw.githubusercontent.com/fabienfrfr/LLaMA-Critic/main/doc/LLaMA-critic.png
 
 **Perspective :**
 
