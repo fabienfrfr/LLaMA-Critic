@@ -36,6 +36,8 @@ The model consists of two parts:
 
 The environement generate sentence of mathematic's relation, and also QCM and universal knowledge.
 
+The math sentence is based on simplified `DeepMind Mathematics dataset generator <https://arxiv.org/abs/2302.13971v1>`__) `Meta <https://github.com/deepmind/mathematics_dataset>`__ (use SymPy).
+
 For an intransigent calculation, i.e. a single false sentence is enough for all the sentences to be false, the probability that a false sentence appears is defined by:
 
 .. math:: P = \frac{1}{2^{N}}
