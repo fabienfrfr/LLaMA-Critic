@@ -19,6 +19,8 @@ This project explore a method to fine tune LLM model with Critic strategy.
 
 Usable in a single computer after training (max 16 Gb) and some smartphone.
 
+Adding causality notion in LLM model for futur fine tuning.
+
 .. image:: https://raw.githubusercontent.com/fabienfrfr/LLaMA-Critic/main/doc/LC_principles.png
 
 **Principles of model :**
@@ -36,9 +38,11 @@ The model consists of two parts:
 
 The environement generate sentence of mathematic's relation, and also QCM and universal knowledge.
 
-The math sentence is based on simplified `DeepMind Mathematics dataset generator <https://arxiv.org/abs/2302.13971v1>`__) `Meta <https://github.com/deepmind/mathematics_dataset>`__ (use SymPy).
+The math sentence is based on simplified `DeepMind Mathematics dataset generator <https://github.com/deepmind/mathematics_dataset>`__) (use SymPy).
 
-For an intransigent calculation, i.e. a single false sentence is enough for all the sentences to be false, the probability that a false sentence appears is defined by:
+For natural language, we limit to the test of similarity (use word2vec). Also, subjective sentences taken into account where their values are between true and false (use nltk). 
+
+For an intransigent calculation, i.e. a single false sentence is enough for all the sentences to be false (same principle for subjective sentence), the probability that a false sentence appears is defined by:
 
 .. math:: P = \frac{1}{2^{N}}
 
@@ -54,4 +58,4 @@ This model opposes Yann LeCun's vision on the concept of "common sense" for achi
 
 Here, the "critic" model will act as the error function for this new word model. If this new model works, we will call it the LLaMA-Oracle.
 
-Also, some inspiration of code on `Vigogne Project <https://github.com/bofenghuang/vigogne>`__ for fine tuning
+Also, some inspiration of code on `Vigogne Project <https://github.com/bofenghuang/vigogne>`__ for fine tuning.
