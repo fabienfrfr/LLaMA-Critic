@@ -23,6 +23,8 @@ Adding causality notion in LLM model for futur fine tuning.
 
 .. image:: https://raw.githubusercontent.com/fabienfrfr/LLaMA-Critic/main/doc/LC_principles.png
 
+This opposes the notion of "Valley of knowledge" (actual llm model) and the concept of "Tree of knowledge" (expected model).
+
 **Principles of model :**
 
 The model consists of two parts:
