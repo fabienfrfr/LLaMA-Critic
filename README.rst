@@ -54,7 +54,7 @@ More detail in documentation with example.
 
 **Perspective :**
 
-This model opposes Yann LeCun's vision on the concept of "common sense" for achieving a general AI. Using this model, we can combine it with a large language model to predict only "plausible" sequences of words (Bayesian probability). This would involve replacing the last layer with one or multiple trainable layers to predict new words. 
+This model opposes actual consensus vision on the concept of "common sense" for achieving a general AI. Using this model, we can combine it with a large language model to predict only "plausible" sequences of words (Bayesian probability). This would involve replacing the last layer with one or multiple trainable layers to predict new words. 
 
 .. image:: https://raw.githubusercontent.com/fabienfrfr/LLaMA-Critic/main/doc/LLaMA-Oracle.png
 
