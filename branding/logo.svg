@@ -11,8 +11,8 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.1"
    id="Frame_0"
-   width="162.73648"
-   height="178.90216"
+   width="164.86354"
+   height="181.79927"
    sodipodi:docname="logo.svg"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
    inkscape:export-filename="/home/fabienfrfr/Bureau/logo.png"
@@ -41,8 +41,8 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1920"
-     inkscape:window-height="1052"
+     inkscape:window-width="1853"
+     inkscape:window-height="1025"
      id="namedview186"
      showgrid="false"
      fit-margin-top="0"
@@ -50,23 +50,24 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:zoom="2.6222222"
-     inkscape:cx="58.914328"
-     inkscape:cy="112.8874"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:cx="-63.80639"
+     inkscape:cy="115.41069"
+     inkscape:window-x="1987"
+     inkscape:window-y="27"
      inkscape:window-maximized="1"
      inkscape:current-layer="Frame_0" />
   <path
-     style="opacity:1;vector-effect:none;fill:#333132;fill-opacity:1;stroke:#999999;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-     d="M 89.49071,1.0000006 A 88.474579,88.474579 0 0 0 15.037585,41.66211 88.474579,88.474579 0 0 0 41.668444,163.91797 88.474579,88.474579 0 0 0 148.05907,155.66992 93.302139,93.302139 0 0 1 133.11376,105.04297 93.302139,93.302139 0 0 1 161.4243,38.101563 88.474579,88.474579 0 0 0 137.29344,15.031251 88.474579,88.474579 0 0 0 89.49071,1.0000006 Z"
+     style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#999999;stroke-width:4.9000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     d="M 162.86678,39.551563 C 156.36007,30.399812 148.17068,22.570349 138.73592,16.481251 124.47462,7.3218746 107.88249,2.4516858 90.933187,2.4500007 60.811789,2.4464591 32.75794,17.767894 16.480062,43.11211 -9.9263784,84.225984 1.9967169,138.96204 43.110921,165.36797 c 33.317331,21.35313 76.762469,17.985 106.390629,-8.24805"
      id="path828"
-     inkscape:connector-curvature="0" />
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="cccccc" />
   <g
      id="Layer_6"
-     transform="translate(-1051.1375,-185.53686)" />
+     transform="translate(-1049.695,-184.08686)" />
   <g
      id="g1120"
-     transform="rotate(32.71095,931.15675,-1608.6231)">
+     transform="rotate(32.71095,929.40756,-1605.4405)">
     <path
        inkscape:connector-curvature="0"
        id="path2"
