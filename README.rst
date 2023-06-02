@@ -9,13 +9,16 @@
 
 This project explore a method to fine tune LLM model with Critic strategy.
 
-**Ideas :** 
+Ideas
+------------
+
   - Environment : Universal Assertion Generator (Bayesian) - Possibilities of Reinforcement 
   - Actor with Critics (% True/False) : LLaMA (last layer is cut) + Attention Extention
 
 *This project is based of minimal, hackable and readable example to load* `LLaMA <https://ai.facebook.com/blog/large-language-model-llama-meta-ai/>`__ (`arXiv <https://arxiv.org/abs/2302.13971v1>`__) `Meta <https://github.com/facebookresearch/llama>`__ *models and run inference. In order to download the checkpoints and tokenizer, fill this* `google form <https://forms.gle/jk851eBVbX1m5TAv5>`__ 
 
-**Objectives :**
+Objectives
+------------
 
 Usable in a single computer after training (max 16 Gb) and some smartphone.
 
@@ -25,7 +28,8 @@ Adding causality notion in LLM model for futur fine tuning.
 
 This opposes the notion of "Valley of knowledge" (actual llm model) and the concept of "Tree of knowledge" (expected model).
 
-**Principles of model :**
+Principles of model
+------------
 
 The model consists of two parts:
 
@@ -36,7 +40,8 @@ The model consists of two parts:
 .. image:: https://raw.githubusercontent.com/fabienfrfr/LLaMA-Critic/main/doc/LLaMA-critic.png
 
 
-**Simulation environment :**
+Simulation environment
+------------
 
 The environement generate sentence of mathematic's relation, and also QCM and universal knowledge.
 
@@ -52,7 +57,8 @@ With "N", the number of sentences possible in the training batch.
 
 More detail in documentation with example.
 
-**Perspective :**
+Perspective
+------------
 
 This model opposes actual consensus vision on the concept of "common sense" for achieving a general AI. Using this model, we can combine it with a large language model to predict only "plausible" sequences of words (Bayesian probability). This would involve replacing the last layer with one or multiple trainable layers to predict new words. 
 
@@ -61,3 +67,20 @@ This model opposes actual consensus vision on the concept of "common sense" for 
 Here, the "critic" model will act as the error function for this new word model. If this new model works, we will call it the LLaMA-Oracle.
 
 Also, some inspiration of code on `Vigogne Project <https://github.com/bofenghuang/vigogne>`__ for fine tuning.
+
+Citation
+------------
+
+If you find the model, data, and code in our project useful, please consider citing our work as follows:
+
+
+```
+@misc{llama-critic,
+  author = {Fabien Furfaro},
+  title = {Exploring of an LLaMA LLM model with Critic method for Fact Checking},
+  year = {2023},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/fabienfrfr/LLaMA-Critic}},
+}
+```
