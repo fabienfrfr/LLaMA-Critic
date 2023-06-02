@@ -73,14 +73,13 @@ Citation
 
 If you find the model, data, and code in our project useful, please consider citing our work as follows:
 
+	@misc{llama-critic,
+	author = {Fabien Furfaro},
+	title = {Exploring of an LLaMA LLM model with Critic method for Fact Checking},
+	year = {2023},
+	publisher = {GitHub},
+	journal = {GitHub repository},
+	howpublished = {\url{https://github.com/fabienfrfr/LLaMA-Critic}},
+	}
 
-```
-@misc{llama-critic,
-  author = {Fabien Furfaro},
-  title = {Exploring of an LLaMA LLM model with Critic method for Fact Checking},
-  year = {2023},
-  publisher = {GitHub},
-  journal = {GitHub repository},
-  howpublished = {\url{https://github.com/fabienfrfr/LLaMA-Critic}},
-}
-```
+
