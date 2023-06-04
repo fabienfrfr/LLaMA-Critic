@@ -10,8 +10,6 @@ nltk.download('wordnet')
 nltk.download('omw-1.4')
 nltk.download('words')
 
-from nltk.corpus import wordnet
-
 import gensim
 import gensim.downloader as api
 
@@ -26,19 +24,19 @@ class Semantics() :
     def __init__(self) :
         self.context = ["concept", "context", "idea", "category", "class"]
         # question structure ['fstring', pivot value]
-        self.simimilarity = [["{word1} and {word2} are part of the same {context}.", -2],
-                             ["{word1} and {word2} belong to the same {context}.", -2],
-                             ["{word1} is close to {context} of {word2}.", -2],
-                             ["{word1} is near to {context} of {word2}.", -2],
-                             ["{word1} have similarity of {word2}.", -2],
-                             ["{word1} is soon of sens of {word2}.", -2],
-                             ["the {context} distance between {word1} and {word2} is small.", -2]]
-        self.familiarity = [["{a} is include to {A}.", -2],
-                            ["{a} is an element of {A}.", -2],
-                            ["{A} includes {a}.", -2],
-                            ["{A} contains {a}.", -2],
-                            ["{a} is a member of {A}.", -2],
-                            ["{a} is an example of {A}.", -2]]
+        self.simimilarity = [["{word1} and {word2} are part of the same {context}.", [0,-2]],
+                             ["{word1} and {word2} belong to the same {context}.", [0,-2]],
+                             ["{word1} is close to {context} of {word2}.", [0,-2]],
+                             ["{word1} is near to {context} of {word2}.", [0,-2]],
+                             ["{word1} have similarity of {word2}.", [0,-2]],
+                             ["{word1} is soon of sens of {word2}.", [0,-2]],
+                             ["the {context} distance between {word1} and {word2} is small.", [0,-2]]]
+        self.familiarity = [["{a} is include to {A}.", [0,-2]],
+                            ["{a} is an element of {A}.", [0,-2]],
+                            ["{A} includes {a}.", [0,-2]],
+                            ["{A} contains {a}.", [0,-2]],
+                            ["{a} is a member of {A}.", [0,-2]],
+                            ["{a} is an example of {A}.", [0,-2]]]
         # model (https://github.com/RaRe-Technologies/gensim-data)
         path = api.load('glove-wiki-gigaword-100', return_path=True)
         self.w2v_model = gensim.models.KeyedVectors.load_word2vec_format(path, binary=False)
@@ -81,6 +79,10 @@ class Semantics() :
                 for lem in hypernym.lemmas():
                     A.append(lem.name())
         if type(A) == list and len(A) > 0 : A = A[0]
+        else : 
+            # find hyponym
+            A = a
+            a = A
         # sentence
         idx = random.randint(0, len(self.familiarity)-1)
         sentence, pivot = self.familiarity[idx]
@@ -88,6 +90,12 @@ class Semantics() :
         # evaluate
         truth = True # not done yet
         return sentence, pivot, truth
+    
+    def generate(self, N_sentence=2):
+        if random.choice([True, False]) :
+            return self.wordDistance(N_sentence)
+        else :
+            return self.wordExtension(N_sentence)
 
 ### basic exemple
 if __name__ == '__main__' :
