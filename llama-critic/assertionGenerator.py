@@ -5,6 +5,7 @@
 """
 
 from semantics import Semantics
+import numpy as np
 import random
 
 class AssertionGenerator() :
@@ -22,7 +23,7 @@ class AssertionGenerator() :
     
     def generate(self, N_sentence=8) :
         assertions = ''
-        truths = []
+        truths = [-1]
         for i in range(N_sentence):
             # find index
             idx = random.choices([0,1,2], weights=self.weight)[0]
@@ -30,16 +31,23 @@ class AssertionGenerator() :
             # generate
             s,p,t = assertor.generate(N_sentence)
             # define thruth list (-1 start, 0.66 undefined, [0,0.5,1] if [false, subjective, true]) --> reflexions needed
-            token = []
+            token = (2./3) * np.ones(len(s.split(' ')))
+            token[:p[0]+1] = -1
+            token[p[1]:] = float(t)
             # complete
             assertions += ' ' + s
+            truths += token.tolist()
         return assertions, truths
     
     def rollsentence(self):
+        n = 0
+        actual_token = -1
+        if actual_token == -1 :
+            n += 1
         pass
     
 ### basic exemple
 if __name__ == '__main__' :
     assertor = AssertionGenerator()
     a, t = assertor.generate(16)
-    print(a)
+    print(a,t)

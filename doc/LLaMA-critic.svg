@@ -14,9 +14,9 @@
    viewBox="0 0 79.597908 84.931252"
    version="1.1"
    id="svg8"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
    sodipodi:docname="LLaMA-critic.svg"
-   inkscape:export-filename="/home/fabienfrfr/Bureau/LLaMA-critic.png"
+   inkscape:export-filename="/home/fabien/Bureau/LLaMA-critic.png"
    inkscape:export-xdpi="240"
    inkscape:export-ydpi="240">
   <defs
@@ -77,15 +77,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.979899"
-     inkscape:cx="144.42213"
-     inkscape:cy="134.14491"
+     inkscape:cx="27.496974"
+     inkscape:cy="132.1246"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1920"
-     inkscape:window-height="1052"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-width="1848"
+     inkscape:window-height="1016"
+     inkscape:window-x="72"
+     inkscape:window-y="27"
      inkscape:window-maximized="1"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -249,7 +249,7 @@
          x="66.035576"
          y="92.833"
          style="text-align:center;text-anchor:middle;stroke-width:0.26458332"
-         id="tspan1863">(Math, QCM, Semantic's, game, etc.)</tspan></text>
+         id="tspan1863">(Math, Semantic's, etc.)</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:2.11666656px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
@@ -269,19 +269,14 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:2.11666656px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="28.175444"
-       y="61.402042"
+       x="29.110888"
+       y="63.673832"
        id="text1803-6-3-0-2"><tspan
          sodipodi:role="line"
-         id="tspan1801-2-6-6-6"
-         x="28.175444"
-         y="61.402042"
-         style="text-align:center;text-anchor:middle;stroke-width:0.26458332">Question</tspan><tspan
-         sodipodi:role="line"
-         x="28.175444"
-         y="64.047874"
+         x="29.110888"
+         y="63.673832"
          style="text-align:center;text-anchor:middle;stroke-width:0.26458332"
-         id="tspan1939">Fact, (...)</tspan></text>
+         id="tspan1939">Sentence</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:2.11666656px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.065;stroke-miterlimit:4;stroke-dasharray:0.065, 0.065;stroke-dashoffset:0"

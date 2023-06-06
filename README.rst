@@ -57,6 +57,7 @@ With "N", the number of sentences possible in the training batch.
 
 More detail in documentation with example.
 
+
 Perspective
 ------------
 
@@ -64,16 +65,19 @@ This model opposes actual consensus vision on the concept of "common sense" for 
 
 .. image:: https://raw.githubusercontent.com/fabienfrfr/LLaMA-Critic/main/doc/LLaMA-Oracle.png
 
-Here, the "critic" model will act as the error function for this new word model. If this new model works, we will call it the LLaMA-Oracle.
+Here, the "critic" model will act as the error function for this new word model. If this new model works, we will call it the LLaMA-Oracle. The dataset generated here can be upgrade be Tree of Thought method, and here, we conserve bad branch but the evaluation is used for optimization of LLaMA-Oracle.
 
-Also, some inspiration of code on `Vigogne Project <https://github.com/bofenghuang/vigogne>`__ for fine tuning.
+An other ideas, more simple, is to use one model to predict the next-word and evaluation of prompt. This way, the model is fully trained for critical thinking by just adding a thought tree/chain evaluation neuron. In this way, it is an alternative to the simulation environment, we just need a dataset generator and a small modification of the model.
+
+.. image:: https://raw.githubusercontent.com/fabienfrfr/LLaMA-Critic/main/doc/LLaMA-ToT-Critic.png
+
 
 Citation
 ------------
 
 If you find the model, data, and code in our project useful, please consider citing our work as follows:
 
-	@misc{llama-critic,
+	@article{llama-critic,
 	author = {Fabien Furfaro},
 	title = {Exploring of an LLaMA LLM model with Critic method for Fact Checking},
 	year = {2023},
@@ -83,3 +87,8 @@ If you find the model, data, and code in our project useful, please consider cit
 	}
 
 
+**References : **
+
+	- `Vigogne Project <https://github.com/bofenghuang/vigogne>`__.
+	- `Tree of Thought <https://github.com/ysymyth/tree-of-thought-llm>`__.
+	- (...)
