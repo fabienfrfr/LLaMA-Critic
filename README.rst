@@ -69,7 +69,7 @@ Here, the "critic" model will act as the error function for this new word model.
 
 An other ideas, more simple, is to use one model to predict the next-word and evaluation of prompt. This way, the model is fully trained for critical thinking by just adding a thought tree/chain evaluation neuron. In this way, it is an alternative to the simulation environment, we just need a dataset generator and a small modification of the model.
 
-.. image:: https://raw.githubusercontent.com/fabienfrfr/LLaMA-Critic/main/doc/LLaMA-ToT-Critic.png
+.. image:: https://raw.githubusercontent.com/fabienfrfr/LLaMA-Critic/main/doc/LLaMA-ToT-critic.png
 
 
 Citation
